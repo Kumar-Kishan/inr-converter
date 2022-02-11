@@ -1,6 +1,9 @@
 import Vue from "vue";
 import App from "./App.vue";
 import store from "./store";
+import "./assets/main.scss";
+require("@popperjs/core");
+require("bootstrap");
 
 Vue.config.productionTip = false;
 
